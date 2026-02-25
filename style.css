@@ -1,1 +1,70 @@
+/* Point 4 : Arial */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dedbf8;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centre tout le menu sur l'écran */
+}
+
+.main-title {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #a93226;
+    padding-bottom: 10px;
+}
+
+.section-title {
+    color: #a93226;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+/* LA CORRECTION POUR L'ALIGNEMENT */
+.menu-list {
+    list-style-type: none; /* Enlève les points/puces */
+    padding: 0;           /* FORCE l'alignement à gauche toute */
+    margin: 0;
+}
+
+.menu-list li {
+    background: rgb(129, 126, 126);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Petit effet d'ombre */
+}
+
+.menu-list strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.menu-list p {
+    margin: 5px 0 0 0;
+    font-style: italic;
+    color: #d3d3d3;
+}
+
+/* Style du pied de page (Footer) */
+.main-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.main-footer p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.main-footer strong {
+    color: #a93226; /* Rappel de la couleur rouge du menu */
+    text-transform: uppercase;
+}
